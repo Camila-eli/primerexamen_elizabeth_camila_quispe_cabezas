@@ -1,22 +1,14 @@
-# primerexamen_elizabeth_camila_quispe_cabezas Primer parcial
+# Proyecto MANACO - Landing Page
 
-## Descripción del Proyecto
-El sitio web está optimizado para dispositivos móviles y desktop, con enfoque en accesibilidad y SEO.
+Este proyecto es una landing page responsiva para la empresa MANACO, especializada en calzado.
+El Primer Examen Parcial de Tecnologías de Internet.
 
-## Descripción Personal
-Me llamo Elizabeth Camila, desarrolladora web especializada en crear experiencias digitales accesibles y responsivas. Me apasiona implementar las mejores prácticas de desarrollo frontend y garantizar que los sitios web sean utilizables para todos los usuarios.
+## Accesibilidad (a11y)
 
-## Características del Proyecto
-- Diseño responsive (mobile-first)
-- Estructura semántica HTML5
-- Enfoque en accesibilidad (a11y)
-- Optimización SEO
-- Desplegado en GitHub Pages
-
-## Tecnologías Utilizadas
-- HTML5
-- CSS3
-- JavaScript
-- GitHub Pages
-
-Desarrollado por Elizabeth Camila Quispe Cabezas para el Primer Examen Parcial.
+- Skip Link: Se implementó un enlace de salto al contenido principal para facilitar la navegación con teclado
+- Navegación por teclado: Todos los elementos interactivos son accesibles mediante tabulación
+- Contraste de colores: Se validó usando la herramienta Lighthouse de Chrome, asegurando ratios superiores a 4.5:1
+- Atributos alt: Todas las imágenes incluyen texto alternativo descriptivo
+- ARIA: Se utilizaron roles y atributos ARIA solo cuando el HTML semántico no era suficiente
+- Pruebas: Se verificó la navegación completa usando solo teclado y el lector de pantalla NVDA
+ 

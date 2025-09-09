@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MANACO - Calzado que impulsa tu paso</title>
+    <meta name="description" content="Calzado deportivo y casual de alta calidad para hombre y mujer. Diseños modernos y cómodos que impulsan tu paso.">
+    <!-- Open Graph -->
+    <meta property="og:title" content="MANACO - Calzado que impulsa tu paso">
+    <meta property="og:description" content="Calzado deportivo y casual de alta calidad para hombre y mujer. Diseños modernos y cómodos.">
+    <meta property="og:image" content="https://placehold.co/600x400/red/white?text=MANACO">
+    <meta property="og:url" content="https://tuusuario.github.io/primerexamen-nombre-apellido">
+    <meta property="og:type" content="website">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -11,7 +18,7 @@
     
     <header>
         <h1>MANACO</h1>
-        <nav>
+        <nav aria-label="Navegación principal">
             <ul>
                 <li><a href="#">Inicio</a></li>
                 <li><a href="#">Servicios</a></li>
@@ -21,29 +28,32 @@
     </header>
     
     <main id="main">
-        <section class="banner">
+        <section class="banner" aria-label="Banner promocional">
             <h2>Calzado que impulsa tu paso</h2>
         </section>
         
-        <section class="products">
-            <h2>Productos</h2>
+        <section class="products" aria-labelledby="productos-titulo">
+            <h2 id="productos-titulo">Productos</h2>
             <div class="product-list">
-                <article class="product-card">
+                <article class="product-card" aria-label="Producto 1">
+                    <img src="https://placehold.co/300x200/eee/999?text=Producto+1" alt="Zapatos deportivos Producto 1 - color negro con detalles en rojo" width="300" height="200">
                     <h3>Producto 1</h3>
                     <p class="price">$00.00</p>
-                    <button>Comprar</button>
+                    <button aria-label="Comprar Producto 1">Comprar</button>
                 </article>
                 
-                <article class="product-card">
+                <article class="product-card" aria-label="Producto 2">
+                    <img src="https://placehold.co/300x200/eee/999?text=Producto+2" alt="Zapatos casuales Producto 2 - color azul marino" width="300" height="200">
                     <h3>Producto 2</h3>
                     <p class="price">$00.00</p>
-                    <button>Comprar</button>
+                    <button aria-label="Comprar Producto 2">Comprar</button>
                 </article>
                 
-                <article class="product-card">
+                <article class="product-card" aria-label="Producto 3">
+                    <img src="https://placehold.co/300x200/eee/999?text=Producto+3" alt="Zapatos formales Producto 3 - color café elegante" width="300" height="200">
                     <h3>Producto 3</h3>
                     <p class="price">$00.00</p>
-                    <button>Comprar</button>
+                    <button aria-label="Comprar Producto 3">Comprar</button>
                 </article>
             </div>
         </section>
@@ -51,6 +61,6 @@
     
     <footer>
         <p>Copyright 2025 MANACO</p>
-    </footerddd>
+    </footer>
 </body>
 </html>
