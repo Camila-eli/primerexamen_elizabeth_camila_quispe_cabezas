@@ -1,0 +1,2 @@
+# primerexamen_elizabeth_camila_quispe_cabezas
+Primer parcial 
